@@ -6,9 +6,122 @@
 
 <body>
     @@include("blocks/header.html")
-    <main>
-        <h1>Main</h1>
-    </main>
+    @@include("blocks/intro.html")
+    <div class="wrapper">
+        <main class="main">
+            <section class="about">
+                <div class="about__container">
+                    <div class="about__wrapper wrapper-about">
+                        <div class="wrapper-about__left">
+                            <img src="./img/about.png" alt="about-company-img">
+                        </div>
+                        <div class="wrapper-about__right right-about">
+                            <div class="right-about__title">
+                                <h2>О соде</h2>
+                            </div>
+                            <div class="right-about__text">
+                                <p class="right-about__text-first-par">В промышленности соду получают аммиачно-хлоридным способом. В концентрированный раствор хлорида натрия, насыщенный аммиаком, под давлением пропускают углекислый газ. В процессе синтеза происходят две реакции</p>
+                                <p class="right-about__text-second-par">Сегодня основным производителем соды в России является Стерлитамакский содовый завод. Предприятие берет свое начало с 1936 года, когда группа геологов обнаружила в Стерлитамакских горах огромные запасы известняка – сырья, необходимого для производства соды и цемента. В 60-е годы на заводе были открыты цеха по производству пищевой соды и белой сажи.</p>
+                            </div>
+                            <a href="./company.html" class="right-about__rating">Рейтинг компаний<span class="_icon-arrow-right"></span></a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="plants">
+                <div class="plants__container">
+                    <div class="plants__title">
+                        <h2>Крупнейшие заводы</h2>
+                    </div>
+                    <div class="plants__wrapper wrapper-plants">
+                            <a href="./company.html" class="wrapper__plants-item">
+                                <img src="./img/plant1.png" alt="plant1">
+                                <div class="plant-name">
+                                    <div class="plant-title">
+                                        <h3>
+                                            БСК
+                                        </h3>
+                                    </div>
+                                    <div class="plant-fullname">Башкирская содовая компания</div>
+                                </div>
+                            </a>
+                            <a href="./company.html" class="wrapper__plants-item">
+                                <img src="./img/plant2.png" alt="plant2">
+                                <div class="plant-name">
+                                    <div class="plant-title">
+                                        <h3>
+                                            БСК
+                                        </h3>
+                                    </div>
+                                    <div class="plant-fullname">Башкирская содовая компания</div>
+                                </div>
+                            </a>
+                            <a href="./company.html" class="wrapper__plants-item">
+                                <img src="./img/plant3.png" alt="plant3">
+                                <div class="plant-name">
+                                    <div class="plant-title">
+                                        <h3>
+                                            БСК
+                                        </h3>
+                                    </div>
+                                    <div class="plant-fullname">Башкирская содовая компания</div>
+                                </div>
+                            </a>
+                            <a href="./company.html" class="wrapper__plants-item">
+                                <img src="./img/plant4.png" alt="plant4">
+                                <div class="plant-name" >
+                                    <div class="plant-title">
+                                        <h3>
+                                            БСК
+                                        </h3>
+                                    </div>
+                                    <div class="plant-fullname">Башкирская содовая компания</div>
+                                </div>
+                            </a>
+                            <a href="./company.html" class="wrapper__plants-item">
+                                <img src="./img/plant5.png" alt="plant5">
+                                <div class="plant-name">
+                                    <div class="plant-title">
+                                        <h3>
+                                            БСК
+                                        </h3>
+                                    </div>
+                                    <div class="plant-fullname">Башкирская содовая компания</div>
+                                </div>
+                            </a>
+                            <a href="./company.html" class="wrapper__plants-item">
+                                <img src="./img/plant6.png" alt="plant6">
+                                <div class="plant-name">
+                                    <div class="plant-title">
+                                        <h3>
+                                            БСК
+                                        </h3>
+                                    </div>
+                                    <div class="plant-fullname">Башкирская содовая компания</div>
+                                </div>
+                            </a>
+                    </div>
+                </div>
+            </section>
+            <section class="facts">
+                <div class="facts__container">
+                    <div class="facts__wrapper wrapper-facts">
+                        <div class="wrapper-facts__left left-facts">
+                            <div class="left-facts__title">Факты о соде</div>
+                            <div class="left-facts__text">
+                                <p class="left-facts__text-first-par">В промышленности соду получают аммиачно-хлоридным способом. В концентрированный раствор хлорида натрия, насыщенный аммиаком, под давлением пропускают углекислый газ. В процессе синтеза происходят две реакции</p>
+                                <p class="left-facts__text-second-par">Сегодня основным производителем соды в России является Стерлитамакский содовый завод. Предприятие берет свое начало с 1936 года, когда группа геологов обнаружила в Стерлитамакских горах огромные запасы известняка – сырья, необходимого для производства соды и цемента. В 60-е годы на заводе были открыты цеха по производству пищевой соды и белой сажи.</p>
+                            </div>
+                            <div class="left-facts__rating">Рейтинг компаний<span class="_icon-arrow-right"></span></div>
+                        </div>
+                        <div class="wrapper-facts__right">
+                            <img src="./img/facts.png" alt="facts-image">
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
     @@include("blocks/footer.html")
 </body>
 

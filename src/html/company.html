@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+@@include('blocks/head.html', {
+    "title":"О компании"
+})
+<html lang="ru">
+
+<body>
+    @@include("blocks/headerNoMain.html")
+    @@include("blocks/introNoMain.html")
+    <div class="wrapper">
+        <main class="main">
+            <section class="company">
+                <div class="company__container">
+                    <div class="company__wrapper wrapper-company">
+                        <div class="wrapper-company__left left-company">
+                            <div class="left-company__links links-company">
+                                <a href="./index.html" class="links-company__home">Главная</a>
+                                <div class="links-company__arrow _icon-arrow-right-long"></div>
+                                <div class="links-company__current"><span>БСК</span></div>
+                            </div>
+                            <div class="left-company__title">О компании</div>
+                            <div class="left-company__text">
+                                <p class="left-company__text-first-par">АО "Башкирская содовая компания" - российское предприятие химической промышленности, состоящее из двух основных производственных площадок. Юридически компания образовалась в 2013 году в результате объединения открытых акционерных обществ "Каустик" и "Сода". Основными направлениями производственной деятельности компании является выпуск кальцинированной и каустической соды, бикарбоната натрия, кальция хлористого, белых саж, ПВХ и других видов продукции. Входит в холдинг "Башкирская химия".</p>
+                            </div>
+                        </div>
+                        <div class="wrapper-company__right right-company">
+                            <div class="right-company__decsription company-decsription">
+                                <h3 class="company-decsription__title">Год основания:</h3>
+                                <span class="company-decsription__text">1945</span>
+                                <h3 class="company-decsription__title">Генеральный директор:</h3>
+                                <a href="./management.html" class="company-decsription__link">Давыдов Эдуард Маликович</a>
+                                <h3 class="company-decsription__title">Регион:</h3>
+                                <span class="company-decsription__text">Республика Башкортостан</span>
+                                <h3 class="company-decsription__title">Сайт компании</h3>
+                                <a href="https://www.soda.ru" class="company-decsription__link">https://www.soda.ru</a>
+                            </div>
+                            <div class="right-company__image ">
+                                <img src="./img/boss-1.png" alt="boss-miniatura">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="production">
+                <div class="production__container">
+                    <div class="production__wrapper wrapper-production">
+                        <div class="wrapper-production__left">
+                            <img src="./img/company-about.png" alt="track-img">
+                        </div>
+                        <div class="wrapper-production__right right-production">
+                            <div class="right-production__text">
+                                <p class="right-production__text-first-par">Производственная площадка по выпуску новых видов продукции – растворного бутадиен-стирольного синтетического каучука (ДССК) мощностью 60 тысяч в год и стирол-бутадиен-стирольных термоэластопластов (ТЭП) запущена в Татарстане. Проект реализован ПАО «Нижнекамскнефтехим» – одной из крупнейших нефтехимических компаний Европы. Инвестиции составили 11,3 млрд рублей.</p>
+                                <p class="right-production__text-second-par">Во время строительства применялись современные технологии, которые соответствуют международным стандартам промышленной и экологической безопасности. На предприятии установлено современное оборудование по очистке воздушных выбросов на стадии выделения каучука. Оно позволит предотвратить попадание загрязняющих веществ в окружающую среду.</p>
+                            </div>
+                            <a href="./management.html" class="right-production__management">Управление компанией<span class="_icon-arrow-right"></span></a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+    @@include("blocks/footerNoMain.html")
+</body>
+
+</html>
